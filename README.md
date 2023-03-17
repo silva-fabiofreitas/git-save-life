@@ -8,6 +8,12 @@
 Volta o commit mais mantem as modficações   
 <code>git reset --soft</code>  
 
+*Reseta a branch co base no remote*
+<code>git fetch origin
+git reset --hard origin/master
+</code>
+https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head
+
 [Push Branch to Another Branch](https://devconnected.com/how-to-push-git-branch-to-remote/#:~:text=In%20order%20to%20push%20your,name%20of%20the%20remote%20branch.)
 
 <code>git push < remote> <local_branch>:<remote_name> </code>
