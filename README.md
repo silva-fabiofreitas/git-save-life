@@ -18,6 +18,12 @@ https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-
 
 <code>git push < remote> <local_branch>:<remote_name> </code>
 
+## Resolver conflito ao dar o pull
+O seus commits virao na frente nao alterando a ordem que esta no repositorio
+<code>git pull --rebase</code>
+Caso der conflito, resolver e adicionar as alteracoes.
+<code>git pull rebase --continue</code>
+
 
 
 ## Adicionar origin 
