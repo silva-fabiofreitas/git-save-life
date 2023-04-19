@@ -23,7 +23,7 @@ O seus commits virao na frente nao alterando a ordem que esta no repositorio
 <code>git pull --rebase</code>  
 <img src="imagens/rebase" style="width:400px;height:150px;"></img>  
 Caso der conflito, resolver e adicionar as alteracoes.  
-<code>git pull rebase --continue</code>  
+<code>git rebase --continue</code>  
 
 
 
