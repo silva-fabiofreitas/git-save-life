@@ -29,11 +29,11 @@ Caso der conflito, resolver e adicionar as alteracoes.
 [help1](https://stackoverflow.com/questions/42830557/git-remote-add-origin-vs-remote-set-url-origin)
 [help2](https://docs.github.com/pt/get-started/getting-started-with-git/managing-remote-repositories)
 below is used to add a new remote:  
-<code>git remote add origin git@github.com:User/UserRepo.git<code>  
+<code>git remote add origin git@github.com:User/UserRepo.git</code>  
 below is used to change the url of an existing remote repository:  
-<code>git remote set-url origin git@github.com:User/UserRepo.git<code>  
-below will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch:
-<code>git push -u origin master<code>
+<code>git remote set-url origin git@github.com:User/UserRepo.git</code>  
+below will push your code to the master branch of the remote repository defined with origin and -u let you point your current local branch to the remote master branch
+<code>git push -u origin master</code>
 # Desabilitar ssl
 <code>git config http.sslVerify "false"</code>
 For all repo
