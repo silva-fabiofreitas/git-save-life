@@ -42,11 +42,10 @@ below will push your code to the master branch of the remote repository defined 
 <code>git push -u origin master<code>
 
    
- # Desabilitar ssl
-  <code>git config http.sslVerify "false"</code>
-  For all repo
-  <code>git config --global http.sslVerify "false"</code>
-  
+# Desabilitar ssl
+<code>git config http.sslVerify "false"</code>
+For all repo
+<code>git config --global http.sslVerify "false"</code>
 git -c http.sslVerify=false clone <path>
 cd <directory>
 git config http.sslVerify "false"
