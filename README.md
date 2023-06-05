@@ -24,6 +24,9 @@ O seus commits virao na frente nao alterando a ordem que esta no repositorio
 <img src="imagens/rebase" style="width:400px;height:150px;"></img>  
 Caso der conflito, resolver e adicionar as alteracoes.  
 <code>git rebase --continue</code>  
+Ha a possibilidade de fazer um rebase de outra branch    
+<code>git pull --rebase origin master</code>  
+  
 
 ## Adicionar origin 
 [help1](https://stackoverflow.com/questions/42830557/git-remote-add-origin-vs-remote-set-url-origin)
